@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .All-Para {
+  font-size: 14.6px;
+}
+.Nav-Section {
+  background-color: rgba(211, 207, 207, 0.637);
+}
+.Nav-Section .Nav_Links {
+  list-style: none;
+}
+.Nav-Section .Nav_Links li a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+.MainBody .Body_Text-Headers {
+  font-size: 16px;
+}
+.MainBody .Body_Text-Li li {
+  list-style: none;
+  padding: 0 0.5em;
+  font-size: 14px;
+  border-left: 2px solid rgba(209, 206, 206, 0.3);
+}
+.MainBody .Body_Text p a {
+  text-decoration: none;
+}
+.MainBody .Side-Col {
+  padding-left: 0;
+  padding-right: 0;
+}
+.MainBody .Side-Col p {
+  font-size: 14.6px;
+}
+.MainBody .Body_Text .Body_Text-Grid .Grid_Row {
+  padding: 0;
+}
+.MainBody .Body_Text .Body_Text-Grid .Grid_Row .Grid_Row-Col {
+  height: 60px;
+}
+.MainBody .Body_Text .Body_Text-Grid .Grid_Row .Grid_Row-Col img {
+  object-fit: cover;
+  height: 100%;
+}
+.MainBody .Body_Text .Btn-Side-Text h3 {
+  font-size: 14px;
+}
+.MainBody .Body_Text .Btn-Side-Text h5 {
+  font-size: 12px;
+}
+.MainBody .Body_Img .Last_Left-Img {
+  height: 200px;
+  object-fit: cover;
+}
+.MainBody .Body_Img video {
+  height: 160px;
+  object-fit: cover;
+}
+.MainBody .Body_Img .Img {
+  height: 98%;
+  width: 100%;
+  object-fit: cover;
+}
+.MainBody .Body_Text .Div-Italic_text h4 {
+  font-size: 16px;
+}
+.MainBody .Body_Text .Div-Italic_text .Last-Grid-Img img {
+  object-fit: cover;
+  padding: 1px;
+  height: 52px;
+  border-radius: 4px;
+}
+.MainBody .Body_Text .Div-Italic_text .Last-Grid-Img .Mian_Grid-Img img {
+  height: 104px;
+}
+.MainBody .Nav-Section p {
+  font-size: 12px;
+}
+.MainBody .Cloud-Btns .btns input {
+  font-size: 12px;
+  letter-spacing: -0.1px;
+  box-sizing: border-box;
+  margin: 1px 0;
+}
+.MainBody .Last_Text-Box p {
+  font-size: 14px;
+  word-spacing: 1px;
+}
+.MainBody .last-Li li {
+  font-size: 13px;
+}
+button {
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .Nav-Section nav .Nav_Text {
+    font-size: 14px;
+  }
+  .Nav-Section nav .Nav_Links li {
+    font-size: 16px;
+  }
+  .MainBody .Side-Col {
+    padding-top: 5%;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .MainBody .Body_Text-Li li {
+    font-size: 12px;
+    padding: 0 0.3em;
+  }
+  .MainBody .Body_Text-Headers {
+    font-size: 13px;
+  }
+  body .All-Para {
+    font-size: 13px;
+  }
+  .MainBody .Side-Img-Md {
+    display: flex;
+    margin: auto;
+    padding: 4% 0 0 0;
+  }
+  .MainBody .Side-Img-Md .Coursal_Body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 0 10px 0;
+  }
+  .MainBody .Side-Img-Md .Coursal_Body .Coursal_Img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin: auto;
+  }
+  .MainBody .Arrow-Row div {
+    width: 100%;
+  }
+  .MainBody .Cloud-Btns {
+    padding-top: 2%;
+    text-align: center;
+  }
+  .MainBody .padding-end-Div {
+    padding-right: 0;
+  }
+  .MainBody .padding-end-Div div {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .MainBody .Body_Text-Li li {
+    font-size: 8px;
+    padding: 0 0.1em;
+  }
+  .MainBody .Body_Text-Headers {
+    font-size: 12px;
+  }
+
+  .MainBody .Side-Img-Md .Coursal_Body .Coursal_Img img {
+    width: 20%;
+  }
+}
